@@ -95,3 +95,6 @@ Vulnerability Databases
 ▪️Vulnerability Laboratory - Vulnerability Research Laboratory
 
 ▪️ZDI - Zero Day Initiative
+
+
+## License key for VMware
