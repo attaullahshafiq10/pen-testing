@@ -1,0 +1,3 @@
+Penetration testing (also called pen testing) is the practice of testing a computer system, network or Web application to find vulnerabilities that an attacker could exploit.
+
+Kali Linux Cheat Sheet for Penetration testers is a high level overview for typical penetration testing environment ranging from nmap, sqlmap, ipv4, enumeration, fingerprinting etc. Always view man pages if you are in doubt or the commands are not working as outlined here (can be OS based, version based  changes etc.) for the operating system you are using (such as BlackBox, Black Ubuntu, ParrotSec OS, Debian, Ubuntu etc.). I’ve also referenced some guides that I found useful in different sections and it might come in handy.
