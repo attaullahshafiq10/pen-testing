@@ -10,3 +10,6 @@ Nmap (“Network Mapper”) is a free and open source utility for network discov
 [![Attaullah Shafiq's header](https://github.com/attaullahshafiq10/pen-testing/blob/main/Kali%20Linux%20Cheat%20Sheet%20for%20Penetration%20testers/figure/namp.PNG)](https://attaullahshafiq10.github.io)
 
 
+## SMB enumeration
+
+In computer networking, Server Message Block (SMB), one version of which was also known as Common Internet File System (CIFS, /ˈsɪfs/), operates as an application-layer network protocol mainly used for providing shared access to files, printers, and serial ports and miscellaneous communications between nodes on a network
