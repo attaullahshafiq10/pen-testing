@@ -119,3 +119,36 @@ The script will then ping:
 10.0.1.3
 
 10.0.1.4 and so on all the way through to 254.
+
+In order to make this much more readable we are going to have to sort through the returns to find only the usable information.
+
+To do this we are going to use the grep command which is essentially a search function. In the above example we are going to grep for 64 bytes and then cut out only the IP address.
+
+First of all add the pipe | to pipe the date from the ping into the grep cmd.
+
+```
+ping -c 1 $1.$x | grep "64 bytes"
+```
+We are then going to add another pipe | to pass the output of the grep into a cut command:
+
+```
+ping -c 1 $1.$x | grep "64 bytes" | cut -d " " -f 4
+```
+
+-d = delimiter
+
+cut -d  ” “ = cut the output up every time there is a space.
+
+cut -d “,” = cut the output up every time there is a comment
+
+-f = field
+
+-f 1 = display only the first string (in red in the screenshot above)
+
+-f 6 = display only the second string (in purple in the screenshot above.
+
+We only want the live IP address so we use -f 4.
+
+Running the script now will cycle through pinging each potential host and only return the IP addresses of live hosts:
+
+
